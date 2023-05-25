@@ -12,3 +12,7 @@ logging:
   logback:
     rollingpolicy:
       file-name-pattern: C:/logs/micro-%d{yyyy-MM-dd}.i.log
+level:
+   org:
+      springframework:
+         web: DEBUG
