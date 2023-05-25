@@ -6,13 +6,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-logging:
-  file:
-     name: "C:/logs/micro.log"
-  logback:
-    rollingpolicy:
-      file-name-pattern: C:/logs/micro-%d{yyyy-MM-dd}.i.log
-level:
-   org:
-      springframework:
-         web: DEBUG
